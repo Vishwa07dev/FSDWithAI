@@ -1,0 +1,6 @@
+div {
+   background-image: url("https://picsum.photos/200/300");
+   height:500px;
+   background-repeat: no-repeat;
+   background-attachment: scroll;
+}

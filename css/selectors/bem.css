@@ -1,0 +1,33 @@
+/*Block - Card */
+.card {
+    background-color: lightblue;
+    padding : 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px red;
+}
+
+/* Elements */
+.card__title{
+    font-size: 30;
+    margin-bottom: 10px;
+}
+
+/* Elements */
+.card__text{
+    color: darkblue;
+    font-size: 20;
+}
+/* Elements */
+.card__button{
+    color : gray
+}
+
+/* Modifier | Card */
+.card--featured {
+    background-color: #ffeb3b;
+}
+
+/*Modifier | Buttong*/
+.card__button--highlighted {
+  background-color: #281745;
+}

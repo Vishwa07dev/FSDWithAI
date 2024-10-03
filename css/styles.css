@@ -1,0 +1,20 @@
+
+/* This is single line comments */
+h1 {
+   color:blue
+}
+
+/*
+This is a
+multiline comments
+You can write as many lines as possible
+*/
+
+p {
+    font-size: 25;
+}
+
+/*
+p {
+    font-size : 89;
+}*/

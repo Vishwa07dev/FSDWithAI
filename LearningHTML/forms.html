@@ -1,0 +1,58 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h1>Contact Form</h1>
+   
+        
+        <form rel="noreferrer nofollow nopener" enctype="application/x-www-form-urlencoded"  name="signup" novalidate action="/submit_form"  method="post" target="_self"> 
+            <fieldset>
+              <legend>Sign Up</legend>
+              <label for="email">Enter Email</label>
+              <input type="text" name="email" id="email" autocomplete="on"/>
+              <label for="username">Enter the username</label>
+              <input type="text" name="username" id="username"/>
+              <label for="language">Select one of the programming language</label>
+              <input list="languages" name="language" id="language"/>
+              <datalist id="languages">
+                <option value="java"></option>
+                <option value="js"></option>
+                <option value="c++"></option>
+                <option value="Python"></option>
+
+              </datalist>
+
+              <input type="textarea"/>
+
+              <details>
+                <summary>Topic Name</summary>
+                Topic Details are here
+              </details>
+              
+              <textarea name="MLText" id="MLText"></textarea>
+              
+              
+              <select name="selectNum" id="selectNum">
+                 <option value="1">1</option>
+                 <option value="2">2</option>
+                 <option value="3">3</option>
+                 <option value="4">4</option>
+
+              </select>
+
+              <label for="quantity">Choose the quantity</label>
+              <input type="number" id="quantity" name="quantity" steps="12"/>
+              <input type="submit"/>
+              <button type="reset">Reset Form</button>
+            </fieldset>
+        </form>
+   
+
+    
+    
+</body>
+</html>

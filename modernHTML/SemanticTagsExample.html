@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tech Job Listings</title>
+  </head>
+  <body>
+    <!-- Header section contains the main heading and navigation -->
+    <header>
+      <h1>TechCareer Hub</h1>
+      <!-- Navigation menu -->
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#jobs">Jobs</a></li>
+          <li><a href="#companies">Companies</a></li>
+          <li><a href="#resources">Resources</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Main content area -->
+    <main>
+      <!-- Section for featured job listings -->
+      <section id="featured-jobs">
+        <h2>Featured Job Listings</h2>
+        <!-- Each job listing is wrapped in an article tag -->
+        <article class="job-listing">
+          <h3>Senior Software Engineer</h3>
+          <!-- Using itemprop for structured data -->
+          <p>
+            <strong>Company:</strong>
+            <span itemprop="hiringOrganization">TechCorp Inc.</span>
+          </p>
+          <p>
+            <strong>Location:</strong>
+            <span itemprop="jobLocation">San Francisco, CA</span>
+          </p>
+          <p>
+            <strong>Salary:</strong>
+            <span itemprop="baseSalary">$120,000 - $160,000</span>
+          </p>
+          <!-- Details and summary for expandable content -->
+          <details>
+            <summary>Job Description</summary>
+            <p>
+              We are seeking an experienced software engineer to join our
+              dynamic team...
+            </p>
+          </details>
+          <!-- Time tag for machine-readable dates -->
+          <time datetime="2024-07-15">Posted on: July 15, 2024</time>
+          <a href="#apply" class="cta-button">Apply Now</a>
+        </article>
+
+        <!-- Second job listing article -->
+        <article class="job-listing">
+          <!-- Structure similar to the first job listing -->
+          <!-- ... (content remains the same) ... -->
+        </article>
+      </section>
+
+      <!-- Aside for related but not main content -->
+      <aside>
+        <h2>Job Search Tips</h2>
+        <ul>
+          <li>Tailor your resume to each job application</li>
+          <li>Research the company before applying</li>
+          <li>Prepare for common interview questions</li>
+        </ul>
+      </aside>
+    </main>
+
+    <!-- Footer section -->
+    <footer>
+      <p>&copy; 2024 campncorp. All rights reserved.</p>
+      <!-- Address tag for contact information -->
+      <address>
+        Contact us at:
+        <a href="mailto:info@aimerz.ai">info@aimerz.ai</a>
+      </address>
+    </footer>
+  </body>
+</html>

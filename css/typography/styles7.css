@@ -1,0 +1,26 @@
+
+.a {
+    border : 1px solid hsl(240,50%,50%);
+    width : 150px;
+    white-space :nowrap;
+    overflow : hidden;
+    text-overflow: clip;
+}
+
+.b{
+    border : 1px solid hsl(240,50%,50%);
+    width : 150px;
+    white-space :nowrap;
+    overflow : hidden;
+    text-overflow: ellipsis
+
+}
+
+.c {
+    border : 1px solid hsl(240,50%,50%);
+    width : 150px;
+    white-space :nowrap; 
+    overflow : hidden;
+    text-overflow : "----";
+}
+

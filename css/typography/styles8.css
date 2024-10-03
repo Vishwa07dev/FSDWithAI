@@ -1,0 +1,23 @@
+h1 {
+    font-family: Arial, sans-serif;
+    font-style: italic;
+    font-variant :normal;
+    font-size : 40px;
+    font-weight: 77px;
+}
+
+p {
+    font-style: normal;
+    font-variant: small-caps;
+    font-size : large;
+    font-weight :lighter
+}
+/*
+  font : font-style font-variant font-weight font-size/line-height font-family
+*/
+
+b{
+
+    font : italic normal bold 16px/1.5 "Helvetica Neue" , Arial, sans-serif
+
+}

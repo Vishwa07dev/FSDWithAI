@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif ;
+    background-color: lightgrey;
+    padding : 10px;
+    text-align : center;
+}
+
+h1,h2 {
+    color : hsl(240,50%,50%)
+}
+
+/*Strike through the old price*/
+.old-price {
+    text-decoration: line-through;
+    color: red;
+    font-size: 13px;
+}
+
+.discount-price {
+    text-decoration: underline;
+    text-decoration-color: deepskyblue;
+}
+
+.discount-price span {
+    color : yellow
+}
+
+.limited-offer {
+    text-decoration: underline overline;
+    text-decoration-color: blue;
+    text-decoration-style: dashed;
+}
+
+.limited-offer a{
+    color : black
+}
+
+footer {
+    color : grey;
+    font-size : 7px
+}

@@ -1,0 +1,6 @@
+#header, #main-content,#footer {
+    background-color: grey;
+    color : blue;
+    text-align: center;
+    margin-bottom: 10px;
+}

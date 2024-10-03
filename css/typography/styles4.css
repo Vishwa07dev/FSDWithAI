@@ -1,0 +1,19 @@
+.letter-spacing {
+    letter-spacing: 5px;
+}
+
+.word-spacing {
+    word-spacing: 10px;
+}
+
+.line-height {
+    line-height: 20px;
+}
+
+.text-indent {
+    text-indent : 280px
+}
+
+.white-space {
+    white-space: nowrap;
+}

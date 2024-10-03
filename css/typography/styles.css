@@ -1,0 +1,30 @@
+.highlight{
+    color : red
+}
+
+
+
+
+#color1{
+    color : red
+}
+
+#color2{
+    color : #ff00ff
+}
+
+#color3 {
+    color : rgb(55,155,255)
+}
+
+#color4{
+    color : rgba(55, 155, 255, 0.9)
+}
+
+#color5 {
+    color : hsl(240,88%,70%)
+}
+
+#color6 {
+    color : hsla(240,88%,70%, 0.3)
+}

@@ -1,0 +1,33 @@
+/* Structure */
+.card {
+    border : 1px solid red;
+    border-radius: 8px;
+}
+
+.card-header {
+    background-color: grey;
+    padding : 10px
+}
+
+.card-content{
+    padding: 10px;
+}
+
+.card-footer{
+    background-color: blue;
+    padding:10px;
+    text-align: right;
+}
+
+
+
+
+/* Skin / Stylling*/
+
+.button {
+    background-color: grey;
+    color : white;
+    border : none;
+    border-radius : 4px;
+    cursor : pointer
+}

@@ -1,0 +1,7 @@
+.important, .secondary, .highlight{
+    font-family: Arial, Helvetica, sans-serif;
+    color : darkblue;
+    border-radius: 10px;
+    padding :10;
+    margin-bottom: 15px;
+}
